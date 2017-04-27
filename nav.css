@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .imgCon strong {
+    font-size: 2rem!important;
+    top: calc((100% - 2rem)/2) !important;
+  }
+}
+.imgCon {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  max-height: 600px;
+}
+.imgCon strong {
+  display: block;
+  position: absolute;
+  top: calc((100% - 4rem)/2);
+  left: 15%;
+  font-size: 4rem;
+  font-weight: bolder;
+  color: gainsboro;
+  cursor: pointer;
+}
+.imgCon strong + strong {
+  left: 85% !important;
+}
+.imgCon img {
+  width: 100%;
+  max-width: 1920px;
+  max-height: 600px;
+}
+.imgCon .label {
+  position: absolute;
+  left: calc((100% - 60px) / 2);
+  bottom: 10%;
+}
+.imgCon .label li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  border: 1px solid gainsboro;
+  background: transparent;
+}
+.imgCon .label .on {
+  background: orange;
+}

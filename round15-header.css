@@ -1,0 +1,150 @@
+html {
+  font-size: 62.5%;
+  min-width: 320px;
+}
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑", sans-serif;
+  background: #F8F8F8;
+}
+@media (min-width: 320px) {
+  .head-1,
+  .nav-1 {
+    width: 85%;
+    margin: 0 auto;
+  }
+  html {
+    font-size: 40%;
+  }
+}
+@media (min-width: 768px) {
+  .head-1,
+  .nav-1 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #nav-3 a {
+    padding: 0;
+  }
+  #nav-3 a:hover {
+    border-bottom: 2px solid white!important;
+  }
+  #nav-2 {
+    display: none;
+  }
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 768px) {
+  #nav-3 {
+    display: none;
+    clear: both;
+  }
+  #nav-3 a {
+    display: block;
+    height: 40px;
+    line-height: 40px!important;
+    background: #29b078;
+    color: white;
+  }
+  #nav-3 a {
+    margin-left: -8.82352941%;
+    width: 117.64705882%;
+    padding: 0!important;
+    border-top: 1px solid gainsboro;
+  }
+}
+@media (min-width: 992px) {
+  .head-1,
+  .nav-1 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  html {
+    font-size: 60%;
+  }
+}
+@media (min-width: 1280px) {
+  .head-1,
+  .nav-1 {
+    width: 1200px;
+  }
+}
+header {
+  width: 100%;
+  height: 35px;
+  background: white;
+}
+header .head-1 {
+  margin: 0 auto;
+  text-align: left;
+  line-height: 35px;
+  color: #29B078;
+}
+header .head-1 p {
+  float: left;
+  text-align: left;
+  color: #29B078;
+}
+header .head-1 a {
+  width: 25px;
+  height: 24px;
+  margin: 5.5px 7px;
+  float: right;
+}
+header .share-1,
+header .share-2,
+header .share-3 {
+  width: 24px;
+  height: 24px;
+  background: url("share.png") no-repeat;
+  background-size: 75px 24px;
+}
+header .share-1 {
+  background-position: 0px 0px;
+}
+header .share-2 {
+  background-position: -25px 0px;
+}
+header .share-3 {
+  background-position: -49px 0px;
+}
+nav {
+  height: 100px;
+}
+nav .nav-1 img {
+  float: left;
+  vertical-align: middle;
+  margin-top: 25.5px;
+}
+nav a,
+nav a:hover,
+nav a:visited {
+  text-decoration: none;
+  color: white;
+}
+nav #nav-2 {
+  margin: 5px;
+  padding: 5px;
+  margin: 27.5px 0;
+}
+nav #nav-2 .icon-bar {
+  display: block;
+  width: 40px;
+  height: 5px;
+  background: gainsboro;
+}
+nav #nav-2 .icon-bar + .icon-bar {
+  margin-top: 10px;
+}
+nav #nav-3 a {
+  display: inline-block;
+  padding: 0 1.8em;
+  font-size: 1.8rem;
+  line-height: 98px;
+  text-align: center;
+  white-space: nowrap;
+}

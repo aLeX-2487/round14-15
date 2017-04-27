@@ -1,0 +1,169 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑", sans-serif;
+  background: #F8F8F8;
+  overflow-x: hidden;
+}
+@media (min-width: 320px) {
+  .content,
+  .main-3 {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .content-1 {
+    width: 100%;
+  }
+  .content-3 {
+    width: 90%!important;
+  }
+  li {
+    width: 100%;
+  }
+  html {
+    font-size: 40%;
+  }
+  .content-3-00 {
+    width: 112%!important;
+    margin-left: -6% !important;
+  }
+}
+@media (min-width: 768px) {
+  .content,
+  .main-3 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  html {
+    font-size: 40%;
+  }
+  .content-1 {
+    width: 25%;
+    margin-right: 3%;
+  }
+  .content-3 {
+    width: 62%!important;
+  }
+  .content-3-00 {
+    width: 116.12903226% !important;
+    margin-left: -8.06451613% !important;
+  }
+  html {
+    font-size: 50%;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    font-size: 50%;
+  }
+  html {
+    font-size: 60%;
+  }
+}
+@media (min-width: 1280px) {
+  .main-2,
+  .content,
+  .main-3,
+  .container,
+  .container-fluid {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+#ad img {
+  width: 100%;
+}
+.main-3 {
+  height: 6.4rem;
+  text-align: left;
+  font-size: 1.6rem;
+  line-height: 6.4rem;
+}
+.main-3 a:hover {
+  text-decoration: none;
+}
+.content-1 {
+  height: 600px;
+  background: white;
+  box-shadow: 1px 1px 1px 1px gainsboro;
+  -webkit-box-shadow: 1px 1px 1px 1px gainsboro;
+  -moz-box-shadow: 1px 1px 1px 1px gainsboro;
+  float: left;
+  margin-bottom: 3rem;
+}
+.content-1 ul {
+  height: 5rem;
+  font-size: 1.8rem;
+  line-height: 5rem;
+  text-align: center;
+  font-weight: 600;
+}
+.content-1 .content-2 {
+  width: 100%;
+  padding-top: 1rem;
+}
+.content-1 .content-2 li {
+  width: 100%;
+  height: 3.6rem;
+  text-align: center;
+  line-height: 3.6rem;
+  list-style: url(cir-2.png);
+  list-style-position: inside;
+}
+.content-1 .content-2 li a {
+  color: #29B078;
+  font-size: 1.5rem;
+  text-decoration: none;
+  line-height: 2.5rem;
+}
+.content-1 .content-2 li a:hover {
+  text-decoration: none;
+  color: orange;
+}
+.content-1 .content-2 li:hover {
+  list-style: url(cir-1.png);
+  list-style-position: inside;
+  color: orange;
+}
+.content-3 {
+  width: 62%;
+  margin-bottom: 18%;
+  padding: 0 5% 5%;
+  float: left;
+  background: white;
+  box-shadow: 1px 1px 1px 1px gainsboro;
+  -webkit-box-shadow: 1px 1px 1px 1px gainsboro;
+  -moz-box-shadow: 1px 1px 1px 1px gainsboro;
+}
+.content-3 .content-3-00 {
+  width: 116.12903226%;
+  margin-left: -8.06451613%;
+}
+.content-3 td {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.content-3 .content-3-1 {
+  width: 40%;
+  height: 160px;
+  text-align: center;
+  border-bottom: 1px solid gainsboro;
+}
+.content-3 .content-3-2 {
+  padding: 2% 6% 2% 2%;
+  border-bottom: 1px solid gainsboro;
+}
+.content-3 .content-3-01 td {
+  padding-top: 2rem;
+  text-indent: 2em;
+}
+.content-3 .content-3-01 td + td {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-indent: 2em;
+  padding-bottom: 2rem;
+}
