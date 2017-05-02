@@ -40,13 +40,19 @@
         </div>
     </div>
     <script>
-        var nav=document.getElementById("nav-3");
-        document.getElementById("nav-2").onclick=function(){
-            if(nav.style.display=="none"){
-                nav.style.display="block";
+        var nav_3=document.getElementById("nav-3");
+        var nav_2=document.getElementById("nav-2");
+
+        nav_2.onclick=function(){
+            if(nav_3.style.display==false){
+                nav_3.style.display="block";
                 document.getElementById("imgCon").style.marginTop="164px";
             }
-            else{ nav.style.display="none";document.getElementById("imgCon").style.marginTop="0"}
+            else if(nav_3.style.display=="none"){
+            nav_3.style.display="block";
+            document.getElementById("imgCon").style.marginTop="164px";
+        }
+        else { nav_3.style.display="none";document.getElementById("imgCon").style.marginTop="0"}
         }
     </script>
 </nav>
@@ -116,6 +122,7 @@ prev.onclick = function(){num--;if(num == -1){num = imgArr.length-1;}imgTab();}
                 <p>学员已经找到满意工作</p>
             </div>
         </div>
+    <div class="cl"></div>
     </div>
 
 
@@ -333,7 +340,7 @@ prev.onclick = function(){num--;if(num == -1){num = imgArr.length-1;}imgTab();}
         <div class="cl"></div>
     </div>
     <div class="cl"></div>
-    <p>友情链接</p>
+    <p style="line-height: 28rem">友情链接</p>
     <div class="main-4-2 tl">
         <a href="#">●&nbsp;&nbsp;手机软件</a>
         <a href="#">●&nbsp;&nbsp;手机软件</a>
